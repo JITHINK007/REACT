@@ -1,0 +1,26 @@
+.h-wrapper {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: var(--black);
+    color: white;
+}
+
+.h-container {
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+}
+
+.h-menu {
+    gap: 2rem;
+}
+
+.h-menu>*:hover {
+    cursor: pointer;
+}
